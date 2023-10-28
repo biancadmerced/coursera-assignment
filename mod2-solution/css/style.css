@@ -1,1 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body{
+  font-family: Tahoma, sans-serif;
+}
+
+h1 {
+	color: #c7c1c7;
+	text-align: center;
+	margin: 20px;
+}
+
+
+#divTitle1 {
+	color: white ;
+	background-color: #e1cbcb;
+	position: relative;
+	float : right;
+	clear: left;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+#divTitle2 {
+	color: white ;
+	background-color: #c7c1c7;
+	position: relative;
+	float : right;
+	clear: left;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+#divTitle3 {
+	color: white ;
+	background-color: #897689;
+	position: relative;
+	float : right;
+	clear: left;
+	border: 1px solid black;
+	padding: 10px;
+
+}
+
+.content {
+ color: blck;
+ clear: right;
+ background-color: white;
+ padding: 10px;
+}
+
+
+/********** Desktop devices only **********/
+@media (min-width: 992px) {
+  #div1{
+   	width:30%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 0;
+  	position: relative;
+  	float:left;
+  	color: black;
+  }
+  #div2{
+  	width:30%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 0;
+  	position: relative;
+  	float:left;
+  	color: black;
+  }
+  #div3{
+  	width:30%;
+  	background-color: white;
+  	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+  	position: relative;
+  	float:left;
+  	color: black;
+  }
+}
+
+
+/********** Tablet devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #div1{
+  	width:46.25%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 0;
+  	position: relative;
+  	float:left;
+  }
+  #div2{
+  	width:46.25%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+  	position: relative;
+  	float:left;
+  }
+  #div3{
+  	width:95%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+  	position: relative;
+  	float:left;
+  }
+}
+
+/********** Mobile devices only **********/
+@media (max-width: 767px) {
+  #div1{
+  	width:95%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+  	position: relative;
+  	float:left;
+  }
+  #div2{
+  	width:95%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+  	position: relative;
+  	float:left;
+  }
+  #div3{
+  	width:95%;
+  	background-color: white;
+	border: 1px solid black;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+  	position: relative;
+  	float:left;
+  }
+}
